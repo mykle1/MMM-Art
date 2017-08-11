@@ -17,7 +17,7 @@ Below that, the name of the piece, the artist's name again, and the year.
 
 * Shown with header
 
-![](pix/1.JPG), ![](pix/2.JPG
+![](pix/1.JPG), ![](pix/2.JPG)
 
 * Annotated .css file included for aligning and coloring text and header.
 
@@ -39,11 +39,11 @@ You will get a code immediately.`
         module: 'MMM-Art',
         position: 'top_left',              // Works well anywhere
         config: {
-			apiKey: "apiKey goes here",    // Enter your apiKey
-		    useHeader: true,              // true if you want a header
-            header: "Rijksmuseum, Amsterdam, Netherlands",   // Any text you want
-		    maxWidth: "300px",             // Stretch or constrain according to region
-		    animationSpeed: 3000,          // New artwork fades in and out
+		apiKey: "apiKey goes here",    // Enter your apiKey
+		useHeader: true,              // true if you want a header
+		header: "Rijksmuseum, Amsterdam, Netherlands",   // Any text you want
+		maxWidth: "300px",             // Stretch or constrain according to region
+		animationSpeed: 3000,          // New artwork fades in and out
         }
     },
 	
