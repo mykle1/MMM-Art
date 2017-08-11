@@ -8,7 +8,7 @@ Module.register("MMM-Art", {
 
     // Module config defaults.
     defaults: {
-		apiKey: "GOES IN CONFIG FILE",     // Your API key
+	apiKey: "GOES IN CONFIG FILE",     // Your API key
         rotateInterval: 60 * 1000,         // New artwork rotation.
         useHeader: true,                  // true if you want a header
         header: "Rijksmuseum, Amsterdam, Netherlands",    // Any text you want
@@ -39,7 +39,7 @@ Module.register("MMM-Art", {
 
     getDom: function() {
 		
-		var apiKey = this.config.apiKey;
+	var apiKey = this.config.apiKey;
 
         var wrapper = document.createElement("div");
         wrapper.className = "wrapper";
@@ -70,17 +70,17 @@ Module.register("MMM-Art", {
             var top = document.createElement("div");
             top.classList.add("list-row");
 			
-			// the artist
-			var artist = document.createElement("div");
+	    // the artist
+	    var artist = document.createElement("div");
             artist.classList.add("small", "bright", "artist");
-		//	console.log(Art); // for checking
+   //	    console.log(Art); // for checking
             artist.innerHTML = "by " + Art.principalOrFirstMaker;
             wrapper.appendChild(artist);
 			
 			// the artwork
             var pic = document.createElement("div");
             var img = document.createElement("img");
-			img.classList.add("photo");	
+	    img.classList.add("photo");	
             img.src = Art.webImage.url;
             pic.appendChild(img);
             wrapper.appendChild(pic);
