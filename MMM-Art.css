@@ -1,0 +1,30 @@
+/* Copy and paste any or all of these css entries into your custom.css file inside your
+ * css folder. The functions are annotated to make things as easy as possible for you.
+ * Use any colors you want! Go to - "http://htmlcolorcodes.com/color-picker/"
+ * Pick your color, copy and paste the HEX number. Example - #62FF00 = bright green.
+ */
+
+.MMM-Art .header {
+  color: white;               /* Color the header. Default is white. */
+  text-align: left;           /* Align the header. (left, center, right) */
+}
+ 
+.MMM-Art .artist {
+  color: white;               /* Artist color. Default is white. */
+  text-align: left;           /* Align artist text. (left, center, right) */
+}
+
+.MMM-Art .title {
+  color: white;               /* Color the title. Default is white. */
+  text-align: left;           /* Align the title. (left, center, right) */
+}
+
+.MMM-Art .photo {      
+  width: 100%;                /* adjust size of picture */
+  margin-left: 0px;          /* Precisely align picture with these */
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+}
+
